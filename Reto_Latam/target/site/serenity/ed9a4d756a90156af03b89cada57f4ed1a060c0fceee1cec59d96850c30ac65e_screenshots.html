@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="3c415feafb01f2797cf586f5caa74bdce390679e32e591176d79f5393d082cdc.html">Consulta Vuelos Latam</a></span>
+                > <span class="truncate-60"><a
+                    href="ed9a4d756a90156af03b89cada57f4ed1a060c0fceee1cec59d96850c30ac65e.html">flights consultant in LATAM </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-05-2022 01:09</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Consulta Vuelos Latam </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a LATAM user, I want to make flight inquiries to see the options and prices they offer me
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="error-color">flights consultant in LATAM
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given LATAM Airlines Customer<br>When check available flights<br><table class='embedded'><thead><th>trayecto</th><th>origen</th><th>destino</th><th>idafecha</th><th>vueltafecha</th></thead><tbody><tr><td>&lt;trayecto&gt;</td><td>&lt;origen&gt;</td><td>&lt;destino&gt;</td><td>&lt;idafecha&gt;</td><td>&lt;vueltafecha&gt;</td></tr></tbody></table><br>Then Know the options and prices that they offer me</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element not interactable exception: element not interactable</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.ElementNotInteractableException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.choucair.certification.retolatam.taks.ConsultaVuelosLatam.performAs(ConsultaVuelosLatam.java:32)<br />co.com.choucair.certification.retolatam.stepdefinitions.ConsultaVuelosStepDefinitions.checkAvailableFlights(ConsultaVuelosStepDefinitions.java:27)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource609765685300156810.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="9a0ab4f5fa4e0a38c9c74972f71138d7f77c52ae86ea1bf0587afad40f382091.png" title=" Example: {trayecto=Solo ida, origen=Pereira, destino=Medell&iacute;n, MDE - Colombia, idafecha=mi&eacute;. 1 de jun, vueltafecha=vie. 3 de jun}" width="1366"/>
+                <img src="9a0ab4f5fa4e0a38c9c74972f71138d7f77c52ae86ea1bf0587afad40f382091.png" title=" Given LATAM Airlines Customer" width="1366"/>
+                <img src="9a0ab4f5fa4e0a38c9c74972f71138d7f77c52ae86ea1bf0587afad40f382091.png" title=" Fernando open up" width="1366"/>
+                <img src="9a0ab4f5fa4e0a38c9c74972f71138d7f77c52ae86ea1bf0587afad40f382091.png" title=" Fernando opens the Open latam page" width="1366"/>
+                <img src="9a0ab4f5fa4e0a38c9c74972f71138d7f77c52ae86ea1bf0587afad40f382091.png" title=" Fernando open up (completed)" width="1366"/>
+                <img src="9a0ab4f5fa4e0a38c9c74972f71138d7f77c52ae86ea1bf0587afad40f382091.png" title=" Given LATAM Airlines Customer (completed)" width="1366"/>
+                <img src="07b42a82276614d37af2ae3b5cd5c47d5d7c1b48dca4f38700049823be14e51d.png" title=" When check available flights
+| trayecto | origen | destino | idafecha | vueltafecha |
+| Solo ida | Pereira | Medell&iacute;n, MDE - Colombia | mi&eacute;. 1 de jun | vie. 3 de jun |" width="1366"/>
+                <img src="07b42a82276614d37af2ae3b5cd5c47d5d7c1b48dca4f38700049823be14e51d.png" title=" Fernando consulta vuelos latam" width="1366"/>
+                <img src="07b42a82276614d37af2ae3b5cd5c47d5d7c1b48dca4f38700049823be14e51d.png" title=" Fernando clicks on click on round trip option" width="1366"/>
+                <img src="10fde0845230c3939a276c9a3b6c8f9446eb68ae237b9d83e87230e39ae93133.png" title=" Fernando clicks on click go option" width="1366"/>
+                <img src="9a0d9f15615f30d8947c053142a4a06c7281cc218c0aa8a4cde1a2f13950b40a.png" title=" Fernando enters 'Pereira' into click on round trip option" width="1366"/>
+                <img src="5f7cc3b1d100d40ad1f4c15c226707c44ba28f3d4cd31195cba3cba711184444.png" title=" Fernando enters 'Pereira' into click on round trip option" width="1366"/>
+                <img src="0451cdc2e37934dbeff884e70a60391d7fa35ad16074a9cd6d71f75ef8ca80ef.png" title=" Fernando clicks on click on round trip option" width="1366"/>
+                <img src="9a0ab4f5fa4e0a38c9c74972f71138d7f77c52ae86ea1bf0587afad40f382091.png" title=" Example: {trayecto=Ida y Vuelta, origen=Pereira, PEI - Colombia, destino=Medell&iacute;n, MDE - Colombia, idafecha=mi&eacute;. 1 de jun, vueltafecha=vie. 3 de jun}" width="1366"/>
+                <img src="9a0ab4f5fa4e0a38c9c74972f71138d7f77c52ae86ea1bf0587afad40f382091.png" title=" Given LATAM Airlines Customer" width="1366"/>
+                <img src="9a0ab4f5fa4e0a38c9c74972f71138d7f77c52ae86ea1bf0587afad40f382091.png" title=" Fernando open up" width="1366"/>
+                <img src="9a0ab4f5fa4e0a38c9c74972f71138d7f77c52ae86ea1bf0587afad40f382091.png" title=" Fernando opens the Open latam page" width="1366"/>
+                <img src="9a0ab4f5fa4e0a38c9c74972f71138d7f77c52ae86ea1bf0587afad40f382091.png" title=" Fernando open up (completed)" width="1366"/>
+                <img src="9a0ab4f5fa4e0a38c9c74972f71138d7f77c52ae86ea1bf0587afad40f382091.png" title=" Given LATAM Airlines Customer (completed)" width="1366"/>
+                <img src="f5f28ab668d64373dd8efda314c0fbea9dac7f72da3ffaeb7d56aace4a463f4a.png" title=" When check available flights
+| trayecto | origen | destino | idafecha | vueltafecha |
+| Ida y Vuelta | Pereira, PEI - Colombia | Medell&iacute;n, MDE - Colombia | mi&eacute;. 1 de jun | vie. 3 de jun |" width="1366"/>
+                <img src="f5f28ab668d64373dd8efda314c0fbea9dac7f72da3ffaeb7d56aace4a463f4a.png" title=" Fernando consulta vuelos latam" width="1366"/>
+                <img src="f5f28ab668d64373dd8efda314c0fbea9dac7f72da3ffaeb7d56aace4a463f4a.png" title=" Fernando clicks on click on round trip option" width="1366"/>
+                <img src="bb9f4c93a96de504110042ab473cb8e94db701e49146c6dce07c385eccfe7949.png" title=" Fernando clicks on click on round trip option" width="1366"/>
+                <img src="0e4e21528b3510bdbd674bb4903194f42007b527530927f8424184ae508ef8f6.png" title=" Fernando enters 'Pereira, PEI - Colombia' into click on round trip option" width="1366"/>
+                <img src="ceefb60386a8d0ccb3bc98dfb1d6c8302d8e16ddb347cabcd6cccf295c7cd5ff.png" title=" Fernando enters 'Pereira, PEI - Colombia' into click on round trip option" width="1366"/>
+                <img src="3cc845f9410deb176e6bf419487362410227b25c8a981016e43eb39f54f4a280.png" title=" Fernando clicks on click on round trip option: <span class='error-color'>ERROR</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
