@@ -13,9 +13,13 @@ public class ConsultaVuelosPage extends PageObject {
             .located(By.id("btnTripType1"));
     public static final Target ENTER_ORIGIN = Target.the("click on round trip option")
             .located(By.id("txtInputOrigin_field"));
+    public static final Target CONFIRM_ORIGIN = Target.the("click on round trip option")
+            .located(By.id("btnItemAutoComplete_0"));
     public static final Target ENTER_DESTINATION = Target.the("click on round trip option")
             .located(By.id("txtInputDestination_field"));
     public static final Target CONFIRM_ENTER_DESTINATION = Target.the("click on round trip option")
-            .located(By.id("popperExtended"));
+            .located(By.id("btnItemAutoComplete_0"));
+    public static final Target ENTER_DEPARTURE_DATE = Target.the("click on round trip option")
+            .located(By.id("departureDate"));
 
 }

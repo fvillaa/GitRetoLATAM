@@ -28,7 +28,9 @@ public class ConsultaVuelosLatam implements Task {
         } else {actor.attemptsTo(Click.on(ConsultaVuelosPage.CLICK_ROUND_TRIP_OPTION));
         }
         actor.attemptsTo(Enter.theValue(dataLatam.getOrigen()).into(ConsultaVuelosPage.ENTER_ORIGIN));
-        actor.attemptsTo(Enter.theValue(dataLatam.getOrigen()).into(ConsultaVuelosPage.ENTER_DESTINATION));
+        actor.attemptsTo(Click.on(ConsultaVuelosPage.CONFIRM_ORIGIN));
+        actor.attemptsTo(Enter.theValue(dataLatam.getDestino()).into(ConsultaVuelosPage.ENTER_DESTINATION));
         actor.attemptsTo(Click.on(ConsultaVuelosPage.CONFIRM_ENTER_DESTINATION));
+        actor.attemptsTo(Click.on(ConsultaVuelosPage.ENTER_DEPARTURE_DATE));
     }
 }

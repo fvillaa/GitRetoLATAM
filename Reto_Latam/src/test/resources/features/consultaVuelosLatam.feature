@@ -13,6 +13,6 @@ Feature: consultaVuelosLatam
     Then Know the options and prices that they offer me
 
     Examples:
-      | trayecto     | origen                  | destino                  | idafecha      | vueltafecha   |
-      | Solo ida     | Pereira                 | Medellín, MDE - Colombia | mié. 1 de jun | vie. 3 de jun |
-      | Ida y Vuelta | Pereira, PEI - Colombia | Medellín, MDE - Colombia | mié. 1 de jun | vie. 3 de jun |
+      | trayecto     | origen                  | destino                  | idafecha      | vueltafecha    |
+      | Solo ida     | Pereira, PEI - Colombia | Medellín, MDE - Colombia | jue. 9 de jun | dom. 12 de jun |
+      | Ida y Vuelta | Pereira, PEI - Colombia | Medellín, MDE - Colombia | mié. 1 de jun | vie. 3 de jun  |
