@@ -5,7 +5,7 @@
 
 2 Scenarios (?[32m2 passed?[0m)
 6 Steps (?[32m6 passed?[0m)
-0m37,557s
+0m37,270s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
@@ -38,7 +38,7 @@
 TEST STARTED: flights consultant in LATAM
 -------------------------------------------------------------------(consultavueloslatam;flights-consultant-in-latam)
 [Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1b2aea25
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7c09657
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@52002bef
 [pool-2-thread-1] INFO net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: net.thucydides.showcase.cucumber.junit
 ]]></system-err>
 </testsuite>

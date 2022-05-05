@@ -1,3 +1,7 @@
 
+e
+java:S1128"CRemove this unused import 'net.serenitybdd.screenplay.Performable'.(ð”„Îüÿÿÿÿ8ô•ØØˆ0
+n
+java:S1128"QRemove this unused import 'net.serenitybdd.screenplay.actions.SelectFromOptions'.(Õú“™8ö•ØØˆ0
 µ
 java:S1598"™This file "ConsultaVuelosLatam.java" should be located in "co\com\choucair\certification\retolatam\taks" directory, not in "C:\Users\user\Documents\GitRetoLATAM\GitRetoLATAM\Reto_Latam\src\main\java\co.com.choucair.certification.retolatam\taks"(Do not use dots in directory names).(¶éž§ûÿÿÿÿ

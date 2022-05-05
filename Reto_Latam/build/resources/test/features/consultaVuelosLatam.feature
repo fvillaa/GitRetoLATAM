@@ -10,7 +10,7 @@ Feature: consultaVuelosLatam
     When check available flights
       | trayecto   | origen   | destino   | idafecha   | vueltafecha   |
       | <trayecto> | <origen> | <destino> | <idafecha> | <vueltafecha> |
-    Then Know the options and prices that they offer me
+
 
     Examples:
       | trayecto     | origen                  | destino                  | idafecha      | vueltafecha    |
